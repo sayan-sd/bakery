@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHISK'D N BAK'D</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+
+    <!-- REMIXICONS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="./stylesheets/style.css">
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- ====================== HEADER SECTION ========================== -->
+    <header>
+        <!-- ====================== NAVBAR ========================== -->
+        <nav>
+            <div class="nav" id="header">
+                <a href="#" class="nav-logo">
+                    <img src="./assets/logo.png" alt="logo">
+                    WHISK'D N BAK'D
+                </a>
+
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./pages/about.html" class="nav-link">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./pages/menu.html" class="nav-link">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./pages/contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <!-- CCLOSE BUTTON  -->
+                    <div class="nav-close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+
+                    <img src="./assets/leaf-branch-4.png" class="nav-img-1">
+                    <img src="./assets/leaf-branch-3.png" class="nav-img-2">
+                </div>
+
+                <div class="nav-buttons">
+                    <!-- THEME CHANGE BUTTON  -->
+                    <i class="ri-moon-line chnage-theme" id="theme-button"></i>
+
+                    <!-- TOGGLE BUTTON  -->
+                    <div class="nav-toggle" id="nav-toggle">
+                        <i class="ri-apps-2-line"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ====================== HERO SECTON ========================== -->
+        <!-- CAROUSEL  -->
+        <div class="carousel">
+            <div class="list">
+                <div class="item">
+                    <img src="./assets/cake1.png" loading="eager">
+                    <div class="introduce">
+                        <div class="title section-subtitle">Celebrate Special</div>
+                        <div class="topic section-title">Birthday Cake</div>
+                        <div class="des">
+                            Make birthdays memorable with our beautifully crafted birthday cakes, tailored to your taste
+                            and style for any celebration. <br>
+
+                            <a href="#" class="seeMore button" id="orderNowButton" target="_blank">
+                                Order Now
+                                <i class="ri-arrow-right-s-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./assets/cake2.png" loading="eager">
+                    <div class="introduce">
+                        <div class="title section-subtitle">Unique Creations</div>
+                        <div class="topic section-title">Customize Cake</div>
+                        <div class="des">
+                            Design your dream cake with our customization options, perfect for weddings, anniversaries,
+                            and any special occasion. <br>
+
+                            <a href="#" class="seeMore button" id="orderNowButton" target="_blank">
+                                Order Now
+                                <i class="ri-arrow-right-s-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./assets/cake3.png" loading="eager">
+                    <div class="introduce">
+                        <div class="title section-subtitle">Sweet Indulgence</div>
+                        <div class="topic section-title">Chocolate Cakes</div>
+                        <div class="des">
+                            Savor the rich and moist layers of our chocolate cakes, ideal for any celebration or as a
+                            decadent treat. <br>
+
+                            <a href="#" class="seeMore button" id="orderNowButton" target="_blank">
+                                Order Now
+                                <i class="ri-arrow-right-s-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./assets/cake4.png" loading="eager">
+                    <div class="introduce">
+                        <div class="title section-subtitle">Morning Bliss</div>
+                        <div class="topic section-title">Fresh Pastries</div>
+                        <div class="des">
+                            Start your day with our selection of fresh pastries, including croissants, danishes, and
+                            more, baked daily. <br>
+
+                            <a href="#" class="seeMore button" id="orderNowButton" target="_blank">
+                                Order Now
+                                <i class="ri-arrow-right-s-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./assets/cake5.png" loading="eager">
+                    <div class="introduce">
+                        <div class="title section-subtitle">Classic Treats</div>
+                        <div class="topic section-title">Cookies & Muffins</div>
+                        <div class="des">
+                            Enjoy our assortment of cookies and muffins, perfect for a quick snack or a delightful
+                            dessert. <br>
+
+                            <a href="#" class="seeMore button" id="orderNowButton" target="_blank">
+                                Order Now
+                                <i class="ri-arrow-right-s-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrows">
+                <button id="prev">
+                    <i class="ri-arrow-left-s-fill"></i>
+                </button>
+                <button id="next">
+                    <i class="ri-arrow-right-s-fill"></i>
+                </button>
+            </div>
+        </div>
+
+    </header>
+    <!-- ====================== END OF HEADER SECTION ========================== -->
+
+
+    <!-- ====================== MAIN SECTION ========================== -->
+    <main>
+        <!-- ====================== CHOOSE US SECTION ========================== -->
+        <section class="about section" id="about">
+            <div class="about-container container grid">
+                <div class="about-data">
+                    <span class="section-subtitle">Choose Quality</span>
+                    <h2 class="section-title about-title">
+                        Fresh, Delicious <br>Custom Creations
+                    </h2>
+
+                    <p class="about-description">
+                        Experience top-quality ingredients, exceptional taste, and personalized designs. Our commitment
+                        to freshness and customer satisfaction makes us the perfect choice for any occasion.
+                    </p>
+                </div>
+
+                <img src="./assets/choose-us.png" alt="" class="about-img">
+            </div>
+
+            <img src="./assets/leaf-branch-1.png" alt="" class="about-leaf">
+        </section>
+
+        <!-- ====================== POPULAR MENU SECTION ========================== -->
+        <section class="popular section" id="popular">
+            <span class="section-subtitle">The Best Food</span>
+            <h2 class="section-title">Popular Dishes</h2>
+
+            <div class="popular-container container grid">
+                <article class="popular-card">
+                    <img src="./assets/popular-cake1.png" alt="" class="popular-img" loading="lazy">
+
+                    <h3 class="popular-name">Chocolate Cake</h3>
+                    <span class="popular-description">Need 3 days to Prepare.</span>
+                    <span class="popular-price">₹599</span>
+
+                    <a href="#" class="order-btn button">
+                        Order Now
+                        <i class="ri-arrow-right-s-line"></i>
+                    </a>
+                </article>
+
+                <article class="popular-card">
+                    <img src="./assets/popular-cake2.png" alt="" class="popular-img" loading="lazy">
+
+                    <h3 class="popular-name">Fruit Tart</h3>
+                    <span class="popular-description">Need 3 days to Prepare.</span>
+                    <span class="popular-price">₹499</span>
+
+                    <a href="#" class="order-btn button">
+                        Order Now
+                        <i class="ri-arrow-right-s-line"></i>
+                    </a>
+                </article>
+
+                <article class="popular-card">
+                    <img src="./assets/popular-cake3.png" alt="" class="popular-img" loading="lazy">
+
+                    <h3 class="popular-name">Vanilla Cake</h3>
+                    <span class="popular-description">Need 4 days to Prepare.</span>
+                    <span class="popular-price">₹799</span>
+
+                    <a href="#" class="order-btn button">
+                        Order Now
+                        <i class="ri-arrow-right-s-line"></i>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!-- ====================== CUSTOMIZE SECTION ========================== -->
+        <section class="recently section" id="recently">
+            <div class="recently-container container grid">
+                <div class="recently-data">
+                    <span class="section-subtitle">Personal Touch</span>
+                    <h2 class="section-title">
+                        Your Cake<br>
+                        Your Design
+                    </h2>
+
+                    <p class="recently-description">
+                        Create a unique cake that reflects your style and preferences. Choose flavors, colors, and
+                        designs to make your occasion memorable.
+                    </p>
+
+                    <a href="#" class="button" id="orderNowButton">
+                        Customize Your Cake
+                        <i class="ri-arrow-right-s-line"></i>
+                    </a>
+
+                    <img src="./assets/cherry.png" alt="" class="recently-data-img" loading="lazy">
+                </div>
+
+                <img src="./assets/customize.png" alt="" class="recently-img">
+            </div>
+
+            <img src="./assets/leaf-branch-2.png" alt="" class="recently-leaf-1" loading="lazy">
+            <img src="./assets/leaf-branch-3.png" alt="" class="recently-leaf-2" loading="lazy">
+        </section>
+
+        <!-- ================ INSTRUCTION SECTION ================== -->
+        <section class="value section" id="instruction">
+            <div class="value-container container grid">
+                <div class="value-image">
+                    <div class="value-orbe"></div>
+
+                    <div class="value-img">
+                        <img src="./assets/instruction.png" alt="" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="value-content">
+                    <div class="value-data">
+                        <span class="section-subtitle">Handle Carefully</span>
+                        <h2 class="section-title">
+                            Cake Transport Guide<span> .</span>
+                        </h2>
+                        <p class="value-description">
+                            Ensure safe transport by keeping the cake box level and maintaining a cool environment.
+                            Follow these steps for a perfect delivery.
+
+                        </p>
+                    </div>
+
+                    <div class="value-accordion">
+                        <div class="value-accordion-item">
+                            <header class="value-accordion-header">
+                                <i class="ri-truck-fill value-accordion-icon"></i>
+                                <h3 class="value-accordion-title">
+                                    How to carry the cake box?
+                                </h3>
+                                <div class="value-accordion-arrow">
+                                    <i class="ri-arrow-down-s-fill"></i>
+                                </div>
+                            </header>
+
+                            <div class="value-accordion-content">
+                                <p class="value-accordion-description">
+                                    Carry the cake box carefully with both hands- one hand at the bottom and one on a
+                                    side. The box must always be kept straight & not tilted at all.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value-accordion-item">
+                            <header class="value-accordion-header">
+                                <i class="ri-archive-fill value-accordion-icon"></i>
+                                <h3 class="value-accordion-title">
+                                    Where to place the box?
+                                </h3>
+                                <div class="value-accordion-arrow">
+                                    <i class="ri-arrow-down-s-fill"></i>
+                                </div>
+                            </header>
+
+                            <div class="value-accordion-content">
+                                <p class="value-accordion-description">
+                                    Place the box on the floor of the car (best place to keep it is on the floor of
+                                    front row passenger side).
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value-accordion-item">
+                            <header class="value-accordion-header">
+                                <i class="ri-roadster-fill value-accordion-icon"></i>
+                                <h3 class="value-accordion-title">
+                                    Should the car AC be on?
+                                </h3>
+                                <div class="value-accordion-arrow">
+                                    <i class="ri-arrow-down-s-fill"></i>
+                                </div>
+                            </header>
+
+                            <div class="value-accordion-content">
+                                <p class="value-accordion-description">
+                                    AC in car must be on at all times. Drive very carefully- avoid potholes, sudden
+                                    breaks, accelerations & sharp turns!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value-accordion-item">
+                            <header class="value-accordion-header">
+                                <i class="ri-cake-3-fill value-accordion-icon"></i>
+                                <h3 class="value-accordion-title">
+                                    How to bring the cake out?
+                                </h3>
+                                <div class="value-accordion-arrow">
+                                    <i class="ri-arrow-down-s-fill"></i>
+                                </div>
+                            </header>
+
+                            <div class="value-accordion-content">
+                                <p class="value-accordion-description">
+                                    To bring the cake out, carefully cut box’s sides open using a sharp knife & gently
+                                    slide the cake out.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================== TESTIMONIALS =========================== -->
+        <section class="container testimonials-container swiper mySwiper" id="testimonial">
+            <span class="section-subtitle">Our Testimonials</span>
+            <h2 class="section-title">What Our Customer Say</h2>
+            <div class="swiper-wrapper">
+                <!-- generate testimonials here dynamically -->
+            </div>
+            <div class="swiper-pagination"></div>
+        </section>
+    </main>
+    <!-- ====================== END OF MAIN SECTION ========================== -->
+
+    <!-- ====================== EXTRA SECTION ================== -->
+
+
+
+    <!-- ====================== END OF EXTRA SECTION ================== -->
+
+
+
+    <!-- ====================== FOOTER SECTION ========================== -->
+    <footer class="footer">
+        <div class="footer-container container grid">
+            <div>
+                <a href="#" class="footer-logo">
+                    <img src="./assets/logo.png" alt="" loading="lazy">
+                    WHISK'D N BAKE'D
+                </a>
+
+                <p class="footer-description">
+                    Food for the body is not <br>
+                    enough. There must be food <br>
+                    for the soul.
+                </p>
+            </div>
+
+            <div class="footer-content">
+                <div>
+                    <h3 class="footer-title">Pages</h3>
+
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#" class="footer-link">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="./pages/about.html" class="footer-link">About</a>
+                        </li>
+
+                        <li>
+                            <a href="./pages/menu.html" class="footer-link">Menu</a>
+                        </li>
+
+                        <li>
+                            <a href="./pages/contact.html" class="footer-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">Information</h3>
+
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#instruction" class="footer-link">Instruction</a>
+                        </li>
+
+                        <li>
+                            <a href="./pages/about.html#feedback" class="footer-link">Feekback</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link" id="orderNowButton">Order Now</a>
+                        </li>
+
+                        <li>
+                            <a href="#testimonial" class="footer-link" target="_blank">Testimonials</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">Address</h3>
+
+                    <ul class="footer-links">
+                        <li class="footer-information">
+                            4th MG Road <br>
+                            Kolkata, 700 001
+                        </li>
+
+                        <li class="footer-information">
+                            10AM - 10PM
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">Social Media</h3>
+
+                    <ul class="footer-social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer-social-link">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank" class="footer-social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+
+                        <a href="https://twitter.com/home" target="_blank" class="footer-social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <img src="./assets/icicng.png" alt="" class="footer-onion" loading="lazy">
+            <img src="./assets/leaf-branch-4.png" alt="" class="footer-leaf" loading="lazy">
+        </div>
+
+        <div class="footer-info container">
+            <div class="footer-made">
+                Made with <i class="ri-heart-fill"></i> By LSOYS Apps (<a href="http://lsoysapps.com/"
+                    target=”_blank”>lsoysapps.com</a>)
+            </div>
+            <span class="footer-copy">
+                Copyright &#169; WHISK'D N BAK'D <span id="current-year"></span>. All rights reserved
+            </span>
+        </div>
+    </footer>
+    <!-- ====================== END OF FOOTER SECTION ========================== -->
+
+
+    <!-- ================ SCROLL UP ================ -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    <!-- ================ END OF SCROLL UP ================ -->
+
+    <!-- SCROLLREVEAL -->
+    <script src="./scripts/scrollreveal.min.js"></script>
+
+    <!-- JAVASCRIPT -->
+    <script src="./scripts/testimonial.js"></script>
+    <script src="./scripts/script.js"></script>
+
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            // slidesPerView: 1,
+            grabCurso: true,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            //when window width is  >= 767
+            breakpoints: {
+                767: {
+                    slidesPerView: 2
+                }
+            },
+        });  
+    </script>
+</body>
+
+</html>
